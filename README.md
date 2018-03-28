@@ -50,6 +50,9 @@ rpm -ivh http://dl.iuscommunity.org/pub/ius/stable/Redhat/6/x86_64/ius-release-1
 yum clean all
 yum list available python27*
 yum install python27
+yum install python-pip.noarch
+
+pip install subprocess.run
 
 ### Script download
 
