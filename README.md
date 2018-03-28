@@ -42,6 +42,14 @@ Assuming arrconf is installed to **/usr/sbin/arcconf**.
 
 If not — consider to change path to the earcconf executable in the script.
 
+### Python 2.7
+rpm -ivh http://dl.iuscommunity.org/pub/ius/stable/Redhat/6/x86_64/epel-release-6-5.noarch.rpm
+rpm -ivh http://dl.iuscommunity.org/pub/ius/stable/Redhat/6/x86_64/ius-release-1.0-14.ius.el6.noarch.rpm
+
+yum clean all
+yum list available python27*
+yum install python27
+
 ### Script download
 
 Assuming current user is in the *sudo* group.
