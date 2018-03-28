@@ -8,9 +8,6 @@ It is:
 
 Demo screenshot:
 
-![screenshot](https://cloud.githubusercontent.com/assets/2463895/21681285/486738be-d357-11e6-999a-6f5139230826.png)
-
-
 ![screenshot](https://github.com/borzz/raid_arcconf_zabbix_lld/blob/master/486738be-d357-11e6-999a-6f5139230826.png)
 
 Tested on:
